@@ -78,7 +78,7 @@ nav {
 .text-2 {
   font-size: 11px;
   width: 363px;
-  height: 116px;
+  height: 118px;
   overflow: hidden;
   color: rgb(50, 50, 50);
   line-height: 1.364;
@@ -146,7 +146,6 @@ section {
   align-items: center;
   justify-content: space-around;
 }
-
 .menu-item {
   display: block;
   color: #ffffff;
@@ -155,7 +154,6 @@ section {
 .menu-item:first-child {
   margin-left: -14px;
 }
-
 .main-menu a {
   display: block;
   padding: 0 13px;
@@ -178,7 +176,6 @@ section {
   width: 538px;
   height: 189px;
 }
-
 .layer-left {
   height: 219px;
   width: 365px;
@@ -198,7 +195,6 @@ section {
   justify-content: space-around;
   margin-bottom: 84px;
 }
-
 .news-block a {
   color: rgb(22, 105, 177);
 }
@@ -227,12 +223,10 @@ section {
 }
 .all-news {
   display:flex;
-
   font-size: 10px;
   font-family: "Tahoma";
   align-self: center;
 }
-
 .block {
   width: 168px;
   height: 73px;
@@ -245,10 +239,6 @@ section {
 .block a {
   color: #3176b1;
   display: block;
-
-}
-.block p {
- 
 }
 .copyright {
   font: 12px "Tahoma";
