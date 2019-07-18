@@ -14,7 +14,6 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
   }
 a {
   color: inherit;
@@ -63,10 +62,10 @@ nav {
   display: inline-block;
   line-height: 1.2;
 }
-.text {
+.head-text {
   box-sizing: border-box;
 }
-.text h2 {
+.head-text h2 {
   font-size: 27px;
   font-family: "Arial";
   color: rgb(22, 105, 177);
@@ -78,7 +77,7 @@ nav {
 .text-2 {
   font-size: 11px;
   width: 363px;
-  height: 116px;
+  height: 118px;
   overflow: hidden;
   color: rgb(50, 50, 50);
   line-height: 1.364;
@@ -134,7 +133,7 @@ section {
 }
 .header-navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 8px 0 10px;
 }
 .main-menu {
@@ -164,7 +163,7 @@ section {
   display: inline-block;
   line-height: 0.9;
 }
-.min {
+.main-foto {
   overflow: hidden;
   width: 100%;
   display: flex;
@@ -172,30 +171,30 @@ section {
   justify-content: center;
   padding: 0;
 }
-.layer-center {
+.foto-center {
   width: 538px;
   height: 189px;
 }
-.layer-left {
+.foto-left {
   height: 219px;
   width: 365px;
   margin-top: -30px;
 }
-.layer-right {
+.foto-right {
   height: 189px;
   width: 305px;
 }
-.layer {
+.foto {
   display: inline-block;
   width: 100%;
   height: auto;
 }
-.main-news {
+.news-block {
   display: flex;
   justify-content: space-around;
   margin-bottom: 84px;
 }
-.news-block a {
+.news-block-title a {
   color: rgb(22, 105, 177);
 }
 .news {
@@ -203,7 +202,7 @@ section {
   font-family: "Arial";
   text-align: left;
 }
-.news-block {
+.news-block-title {
   width: 170px;
   display: flex;
   flex-direction: column;
@@ -211,11 +210,11 @@ section {
   background: url(z.png) no-repeat 100% 20%;
   line-height: normal;
 }
-.news-block p {
+.news-block-title p {
   margin: 0;
   padding: 0;
 }
-.news-block p:last-child{
+.news-block-title p:last-child{
   align-self: center;
 }
 .news{
@@ -245,6 +244,7 @@ section {
   color: #aeaa97;
   display: flex;
   justify-content: center;
+  margin-bottom:60px;
 }
 .copyright p {
   width: 275px;
