@@ -26,21 +26,21 @@ a {
   box-sizing: border-box;
 }
 nav {
-  margin: 92px 0 70px;
+  margin: 92px 0 68px;
 }
 .header-content {
   display: flex;
   justify-content: space-around;
 }
 .logo-menu {
-  width: 187px;
+  width: 235px;
   height: 167px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .logo {
-  margin-left: -51px;
+  margin-left: -45px;
 }
 .head-menu {
   list-style: none;
@@ -85,7 +85,7 @@ nav {
   padding: 0;
 }
 .contact-box {
-  width: 189px;
+  width: 200px;
   box-sizing: border-box;
   margin-top: -13px;
 }
@@ -105,11 +105,13 @@ p {
   line-height: 1.2;
   margin-top: 14px;
   margin-left: 2px;
-  margin-bottom: 25px;
+  margin-bottom: 19px;
 }
 .adress a {
   color: #0062af;
+  line-height: 2;
 }
+
 .tel {
   font-size: 11px;
   font-family: "Tahoma";
@@ -192,7 +194,6 @@ section {
 .news-block {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 84px;
 }
 .news-block-title a {
   color: rgb(22, 105, 177);
@@ -245,9 +246,10 @@ section {
   display: flex;
   justify-content: center;
   margin-bottom:60px;
+  line-height: 1.8;
 }
 .copyright p {
-  width: 275px;
+  width:313px;
 }
 .copyright a {
   color: #3176b1;
@@ -262,6 +264,7 @@ body {
 }
 main {
   flex: 1 0 auto;
+  margin-bottom: 90px;
 }
 footer {
   flex-shrink: 0;
