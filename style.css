@@ -18,11 +18,17 @@ body {
 a {
   color: inherit;
 }
+header {    
+  padding: 0;
+  margin: 0;
+  flex: 0 0 auto;
+  width: 100%;}
 .container {
-  position: relative;
-  padding: 0 10px;
-  margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
   box-sizing: border-box;
 }
 nav {
@@ -128,7 +134,7 @@ p {
   color: #323232;
 }
 section {
-  margin-bottom: 48px;
+  margin-bottom: 55px;
 }
 .menu-main {
   background: #0062af;
@@ -165,30 +171,33 @@ section {
   display: inline-block;
   line-height: 0.9;
 }
-.main-foto {
+.img-container {
   overflow: hidden;
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 0;
 }
-.foto-center {
-  width: 538px;
+.img-center {
+  width: 60vw;
   height: 189px;
 }
-.foto-left {
+.img-left {
   height: 219px;
-  width: 365px;
+  width: 42vw;
   margin-top: -30px;
 }
-.foto-right {
+.img-right {
   height: 189px;
-  width: 305px;
+  width: 35vw;
 }
-.foto {
+.img {
   display: inline-block;
   width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
   height: auto;
 }
 .news-block {
@@ -235,6 +244,7 @@ section {
   font-family: "Arial";
   text-align: left;
   line-height: 1.364;
+  margin-top: 9px;
 }
 .block a {
   color: #3176b1;
