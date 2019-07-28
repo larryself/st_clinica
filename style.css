@@ -180,25 +180,13 @@ section {
 }
 .img-center {
   width: 60vw;
-  height: 189px;
 }
 .img-left {
-  height: 219px;
   width: 42vw;
   margin-top: -30px;
 }
 .img-right {
-  height: 189px;
   width: 35vw;
-}
-.img {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
 }
 .news-block {
   display: flex;
