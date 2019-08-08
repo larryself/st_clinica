@@ -67,7 +67,10 @@ nav {
   border-bottom: 1px solid rgb(49, 118, 177);
   display: inline-block;
   line-height: 1.2;
+  text-decoration: none;
 }
+.underline-:hover{
+  border: none;}
 .head-text {
   box-sizing: border-box;
 }
@@ -123,10 +126,11 @@ p {
   font-family: "Tahoma";
   color: rgb(168, 165, 150);
 }
-.Online {
+.online {
   font-size: 15px;
   font-family: "Arial";
   color: rgb(22, 105, 177);
+
 }
 .nomer {
   font-size: 29px;
@@ -171,19 +175,22 @@ section {
   display: inline-block;
   line-height: 0.9;
 }
+.underline:hover{
+  border: none;
+}
 .img-container {
   overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 0;
+  min-width: 700px;
 }
 .img-center {
   width: 60vw;
 }
 .img-left {
   width: 42vw;
-  margin-top: -30px;
 }
 .img-right {
   width: 35vw;
@@ -200,6 +207,9 @@ section {
   font-size: 31px;
   font-family: "Arial";
   text-align: left;
+}
+.news:hover{
+  opacity: 0.5;
 }
 .news-block-title {
   width: 165px;
@@ -266,7 +276,7 @@ body {
 }
 main {
   flex: 1 0 auto;
-  margin-bottom: 6.3%;
+  margin-bottom: 6.3% ;
 }
 footer {
   flex-shrink: 0;
