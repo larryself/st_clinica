@@ -294,8 +294,8 @@ body {
 }
 main {
   flex: 1 0 auto;
-  margin-bottom: 5.3%;
 }
 .footer {
   flex-shrink: 0;
+  padding-top: 5.3%;
 }
