@@ -68,6 +68,7 @@ nav {
 .head-menu-item__link:link:hover > .underline-thick
 {
   border-color: transparent;
+  opacity: 0.5;
 }
 .underline-thick {
   border-bottom: 1px solid rgb(49, 118, 177);
@@ -78,6 +79,7 @@ nav {
 }
 .underline-thick:hover {
   border-color: transparent;
+  opacity: 0.5;
 }
 .head-text{
   width:355px;
@@ -179,6 +181,7 @@ nav {
 }
 .underline:hover {
   border-color: transparent;
+  opacity: 0.5;
 }
 .img-container {
   overflow: hidden;
@@ -273,6 +276,7 @@ nav {
 }
 a:hover{
   text-decoration: none;
+  opacity: 0.5;
 }
 .copyright {
   font: 12px "Tahoma";
